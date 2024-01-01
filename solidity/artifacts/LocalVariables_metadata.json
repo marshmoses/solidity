@@ -7,14 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "addNFT",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "checkTotalNFT",
+				"name": "local",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -22,19 +15,12 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "deleteNFT",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "numberofNFT",
+				"name": "myNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -59,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity/main.sol": "NFTCount"
+			"solidity/variable.sol": "LocalVariables"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -73,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity/main.sol": {
-			"keccak256": "0x81c8e1899f352d148c5d4a8a0a6c310074f3a729ceafc3d52e8d0a599c42e6c9",
+		"solidity/variable.sol": {
+			"keccak256": "0x763f32403b11ed38c82196594e66353be5aec11608f84340722795622860406f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dee6f3e8771277f08051bf4dce1f253dd752b11f41e4bdc90e16582622b11c03",
-				"dweb:/ipfs/Qmc94TKnyd8PJ7KZyaAhpSJ6eyHVzAGyf1bbUMr2Vo6WHP"
+				"bzz-raw://57b839b3bbf626c8048370ced9de0ed138830c1069dc47ef3bf9fbf6da8ee348",
+				"dweb:/ipfs/QmZusB3P2unMuLyD6YwuQNT5YBvpPSr8hpAy28mZUqzK4C"
 			]
 		}
 	},

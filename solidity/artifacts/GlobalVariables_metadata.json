@@ -7,19 +7,17 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "addNFT",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "checkTotalNFT",
+				"name": "Myblockhash",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -27,19 +25,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "deleteNFT",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "numberofNFT",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -59,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity/main.sol": "NFTCount"
+			"solidity/variable.sol": "GlobalVariables"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -73,12 +64,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity/main.sol": {
-			"keccak256": "0x81c8e1899f352d148c5d4a8a0a6c310074f3a729ceafc3d52e8d0a599c42e6c9",
+		"solidity/variable.sol": {
+			"keccak256": "0x313af0d8a74a51b8fbaa49cab9f4395134675c1d1d183ccd1fe8d67fbf5a056d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dee6f3e8771277f08051bf4dce1f253dd752b11f41e4bdc90e16582622b11c03",
-				"dweb:/ipfs/Qmc94TKnyd8PJ7KZyaAhpSJ6eyHVzAGyf1bbUMr2Vo6WHP"
+				"bzz-raw://0348a9aef971d951a536c6498faa3d89ca05e56c8a24fcb383f038db5fb500da",
+				"dweb:/ipfs/QmTZFircczd6UB2WYxK3aTGrvmK4aw864BYsLsLczinvvp"
 			]
 		}
 	},

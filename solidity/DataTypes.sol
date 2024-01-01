@@ -32,8 +32,22 @@ contract DataTypes{
     //the datatpes byte represent a sequence of bytes
      //tpye of arrays >>//---fixed-sized arrays
      //>>//dynamically-sized bytes array
-     bytes1 public a= 0xb5;
-     bytes1 public b=0x56;
+     //bytes1 public a= 0xb5;
+     
+     //bytes1 public b=0x56;
+
+
+    //ADDRESS TYPES
+     //address public hey;
+     //address public addr=0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+
+
+    //DEFAULT VALUES
+    bool public defaultBool;//false;
+    uint public number;//0
+    int public defaultInt;//0
+    address public hey;//0x000000
+
 
 
 

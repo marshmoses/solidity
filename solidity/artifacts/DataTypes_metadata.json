@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "a",
+				"name": "defaultBool",
 				"outputs": [
 					{
-						"internalType": "bytes1",
+						"internalType": "bool",
 						"name": "",
-						"type": "bytes1"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -20,12 +20,38 @@
 			},
 			{
 				"inputs": [],
-				"name": "b",
+				"name": "defaultInt",
 				"outputs": [
 					{
-						"internalType": "bytes1",
+						"internalType": "int256",
 						"name": "",
-						"type": "bytes1"
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hey",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -60,11 +86,11 @@
 	},
 	"sources": {
 		"solidity/DataTypes.sol": {
-			"keccak256": "0x1e1b58fb36ebaf62c45cad8b3eb7f5b42dbdf8ded3a61e33dbc9a28cf74a4637",
+			"keccak256": "0xfc35392f72b44860d24885c9fa986cf932d5fceed6df55a052de31a567aa002d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4fcb068d40de70485d3e351342cb25e53cb4c03bd0cbaee326373b36e941931b",
-				"dweb:/ipfs/Qmc7LTZAGCtbPL58QE85R9gsYsGNiyXnw9yycjy9s3G4vn"
+				"bzz-raw://3fbcd3cbf4a875fa45b2d751fb68266d3c921bbbbbbfcd72c03b29ec7c6a9ca9",
+				"dweb:/ipfs/QmeDAM1Rge97BF4LJ2mCggtGyc7qRFaanJxZqSFV7Aroia"
 			]
 		}
 	},
