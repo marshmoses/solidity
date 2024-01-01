@@ -30,32 +30,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "hey",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "no",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -86,11 +60,11 @@
 	},
 	"sources": {
 		"solidity/DataTypes.sol": {
-			"keccak256": "0xff8d4b7c7ea9354378613f19b406ae90c80019d6201d301826210ca30dbbab43",
+			"keccak256": "0x1e1b58fb36ebaf62c45cad8b3eb7f5b42dbdf8ded3a61e33dbc9a28cf74a4637",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://01fb15df85d340202269e8e6650ad93df5214686c188610f46e9c115673092a0",
-				"dweb:/ipfs/QmSacJUp528rkT9rEWTTRsg7e3132CmV7dFP76QhVJR1H3"
+				"bzz-raw://4fcb068d40de70485d3e351342cb25e53cb4c03bd0cbaee326373b36e941931b",
+				"dweb:/ipfs/Qmc7LTZAGCtbPL58QE85R9gsYsGNiyXnw9yycjy9s3G4vn"
 			]
 		}
 	},
