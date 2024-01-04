@@ -4,7 +4,26 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity/keyword.sol": "View"
+			"solidity/keyword.sol": "Pure"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
