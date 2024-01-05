@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "MY_ADDR",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity/keyword.sol": "View"
+			"solidity/keyword.sol": "Constants"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"solidity/keyword.sol": {
-			"keccak256": "0x764c6444c4028fcd781825948de9671f8892cf54f659677451fcd33484822bf5",
+			"keccak256": "0x408af198204d870d84245f69eb3a35b64ebe2d2c738ecebdbee150c2bb8aab88",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c0c98cf501c48c311d6728dc804f000c6d4aea2e851042c09d2d7de3060ad999",
-				"dweb:/ipfs/QmY3V2bPvrEXgKEtJxJHJrnZKCw5Fn78kz3GW7eZH3sRXN"
+				"bzz-raw://cba85b56a632f61acc829de3c0dfaabd8feea3a3ee85b9e058358f5c7a37d001",
+				"dweb:/ipfs/Qmez7ajFLrG6vj2xzhDd48RYkNa5mNwSi5eB1b9Lz31Mwo"
 			]
 		}
 	},

@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity/keyword.sol": "View"
+			"solidity/keyword.sol": "DoWhile"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"solidity/keyword.sol": {
-			"keccak256": "0x764c6444c4028fcd781825948de9671f8892cf54f659677451fcd33484822bf5",
+			"keccak256": "0xee5c73fb4ce4df1120beebba69bb011a78fb8cb39b8913b747ca4988c28ed0ac",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c0c98cf501c48c311d6728dc804f000c6d4aea2e851042c09d2d7de3060ad999",
-				"dweb:/ipfs/QmY3V2bPvrEXgKEtJxJHJrnZKCw5Fn78kz3GW7eZH3sRXN"
+				"bzz-raw://9d689e9856b9115770c40bf89237604fe61d9ea123c77e6b70f2bf325c0484a6",
+				"dweb:/ipfs/QmQ8LZiaYvytNmCYwhQ1sQ2KZmCToRtLoaeceXGFPqcP5T"
 			]
 		}
 	},

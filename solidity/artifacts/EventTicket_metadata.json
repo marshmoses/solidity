@@ -6,14 +6,39 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getData",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_ticketPrice",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "buyTicket",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "ticketId",
 						"type": "uint256"
-					},
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAmount",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -37,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity/keyword.sol": "Pure"
+			"solidity/keyword.sol": "EventTicket"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -52,11 +77,11 @@
 	},
 	"sources": {
 		"solidity/keyword.sol": {
-			"keccak256": "0x142910baf6308e7eb775a8405a267940ce2b16723e392796018184128944dbdb",
+			"keccak256": "0x6cae68dd2f01135dde20227dbbc0df04c6422909e900683247c56031e5ed3bf3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f08f79a6745dc3205ce844c8299a72c45e54ab9eec4b55ccccbc22377e063382",
-				"dweb:/ipfs/QmQnrZB4w4xMyK6fka3K4mgxKGvkN8iomMVrT72srHSK1W"
+				"bzz-raw://9ac628fcec141c3b7484ef1267973f9f87d9705db443d26cc2a768909207363c",
+				"dweb:/ipfs/QmZA7YjHRTxwUVGAvcimsyuy84wGTKddL6sGYyM5qf8WHs"
 			]
 		}
 	},
