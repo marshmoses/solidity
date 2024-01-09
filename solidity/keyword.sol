@@ -190,3 +190,164 @@ pragma solidity ^0.8.13;
 
 
 //}
+
+
+
+//FUNCTION MODIFIER
+
+//MODIFIERS Are code that can be run before and after a function call
+//used to restrict access ,validate inputs guard against reentrancy hack
+
+
+//contract functionModifier{
+    //address public owner;
+    //uint public x = 10;
+    //bool public locked;
+
+
+    //constructor(){
+        //owner=msg.sender;
+
+
+    //}
+    //modifier onlyOwner(){
+        //require(msg.sender ==owner, "Not Owner");
+        //_;
+        
+    //}
+    //modifier validateData(address _addr){
+        //require(_addr !=address(0),"Not valid Address");
+        //_;
+    //////}
+    //function changeOwner(address _newOwner)public onlyOwner validateData(_newOwner){
+       // owner=_newOwner;
+    //}
+
+
+    //modifier noReentrancy(){
+        //require(!locked,"No reentrancy");
+        //locked=true;
+        //_;
+        //locked =false;
+    //}
+
+    //function decrement(uint256 i)public noReentrancy{
+        //x-=1;
+        //if(i>1){
+            //decrement(i-1);
+        //}
+
+
+    //}
+//}
+
+//CONSTRUCTORS
+// base contract
+//contract X {
+    //string public name;
+    //constructor(string memory _name){
+       // name =_name;
+    //}
+
+//}
+
+
+//base contract Y
+
+
+//contract Y{
+    //string public text;
+
+
+    //constructor(string memory _text){
+        //text = _text;
+    //}
+
+
+
+//}
+
+
+//ways to initialize parrent contract with parameters.
+//pass the parameters here in the ineritance list.
+//contract B is X("Input to X"),Y("Input to Y"){
+
+//}
+
+//contract C is X,Y{
+   //pass the parameter here in the constructor,
+   //similar to function midifiers.
+   //constructor(string memory _name,string memory _text)X(_name)Y(_text){}
+
+   //parrent constructors are always called in the order of inheritance.
+   //regardless of the order of parrent contracts listed in the.
+   //constructor of child contracct.
+   //order of constructors called;
+   //1.X
+   //2.Y
+   //3.D
+
+//}
+
+
+//contract D is  X,Y{
+    //constructor()X("X was called") Y("Y was called"){}
+//}
+//order of constructors called;
+//1.E
+//2.Y
+//#3.E
+
+
+//contract E is X,Y{
+    //constructor ()Y("Y was called") X("X was called"){}
+
+    
+
+//}
+
+//MAPPING
+
+contract Mapping{
+    //mapping from address to uint
+    mapping(address => uint)public myMap;
+
+    function get(address _addr)public view returns (uint){
+        //mapping always returns a value
+        //if the value was never set,it will return default value.
+        return myMap[_addr];
+    }
+    function set (address _addr,uint _i)public{
+        //update the value at this addresss
+        myMap[_addr]=_i;
+    }
+    function remove (address _addr,uint _i)public{
+        //reset the value to the default value.
+        delete myMap[_addr];
+
+    }
+}
+
+
+contract NestedMapping{
+    //nested mapping (mapping from an address to another mapping)
+    mapping(address=>mapping(uint=>bool))public nested;
+
+
+    function get(address _addr1,uint _i)public view returns(bool){
+        //you can get values from nested mapping
+        //even when it is not initialized
+        return nested [_addr1][_i];
+
+    }
+
+    function set(
+        address _addr1,
+        uint _i,
+        bool _boo
+    )public {
+        nested[_addr1][_i];
+    }
+}
+
+
